@@ -1,0 +1,206 @@
+{
+ "01-12_DrDoS_DNS.csv.gz": {
+  "rows": 5074413,
+  "kept": 69816,
+  "benign": 3402,
+  "rate": 0.013078280623365492,
+  "labels": {
+   "DrDoS_DNS": 5071011,
+   "BENIGN": 3402
+  },
+  "sec": 10
+ },
+ "01-12_DrDoS_LDAP.csv.gz": {
+  "rows": 2181542,
+  "kept": 67771,
+  "benign": 1612,
+  "rate": 0.03041527389558633,
+  "labels": {
+   "DrDoS_LDAP": 2179930,
+   "BENIGN": 1612
+  },
+  "sec": 4
+ },
+ "01-12_DrDoS_MSSQL.csv.gz": {
+  "rows": 4524498,
+  "kept": 68942,
+  "benign": 2006,
+  "rate": 0.014768298450580634,
+  "labels": {
+   "DrDoS_MSSQL": 4522492,
+   "BENIGN": 2006
+  },
+  "sec": 10
+ },
+ "01-12_DrDoS_NTP.csv.gz": {
+  "rows": 1217007,
+  "kept": 66293,
+  "benign": 14365,
+  "rate": 0.04325523681462321,
+  "labels": {
+   "DrDoS_NTP": 1202642,
+   "BENIGN": 14365
+  },
+  "sec": 5
+ },
+ "01-12_DrDoS_NetBIOS.csv.gz": {
+  "rows": 4094986,
+  "kept": 68590,
+  "benign": 1707,
+  "rate": 0.016436130505560195,
+  "labels": {
+   "DrDoS_NetBIOS": 4093279,
+   "BENIGN": 1707
+  },
+  "sec": 8
+ },
+ "01-12_DrDoS_SNMP.csv.gz": {
+  "rows": 5161377,
+  "kept": 67185,
+  "benign": 1507,
+  "rate": 0.012841875731041898,
+  "labels": {
+   "DrDoS_SNMP": 5159870,
+   "BENIGN": 1507
+  },
+  "sec": 10
+ },
+ "01-12_DrDoS_SSDP.csv.gz": {
+  "rows": 2611374,
+  "kept": 58682,
+  "benign": 763,
+  "rate": 0.022272137728370747,
+  "labels": {
+   "DrDoS_SSDP": 2610611,
+   "BENIGN": 763
+  },
+  "sec": 7
+ },
+ "01-12_DrDoS_UDP.csv.gz": {
+  "rows": 3136802,
+  "kept": 60029,
+  "benign": 2157,
+  "rate": 0.01852541210889765,
+  "labels": {
+   "DrDoS_UDP": 3134645,
+   "BENIGN": 2157
+  },
+  "sec": 9
+ },
+ "01-12_Syn.csv.gz": {
+  "rows": 1582681,
+  "kept": 69587,
+  "benign": 392,
+  "rate": 0.04377760726338729,
+  "labels": {
+   "Syn": 1582289,
+   "BENIGN": 392
+  },
+  "sec": 4
+ },
+ "01-12_TFTP.csv.gz": {
+  "rows": 20107827,
+  "kept": 85438,
+  "benign": 25247,
+  "rate": 0.002999351393486268,
+  "labels": {
+   "TFTP": 20082580,
+   "BENIGN": 25247
+  },
+  "sec": 49
+ },
+ "01-12_UDPLag.csv.gz": {
+  "rows": 370605,
+  "kept": 68456,
+  "benign": 3705,
+  "rate": 0.17661718832146378,
+  "labels": {
+   "UDP-lag": 366461,
+   "BENIGN": 3705,
+   "WebDDoS": 439
+  },
+  "sec": 2
+ },
+ "03-11_LDAP.csv.gz": {
+  "rows": 2113234,
+  "kept": 73104,
+  "benign": 5124,
+  "rate": 0.03201748295032884,
+  "labels": {
+   "NetBIOS": 202919,
+   "BENIGN": 5124,
+   "LDAP": 1905191
+  },
+  "sec": 4
+ },
+ "03-11_MSSQL.csv.gz": {
+  "rows": 5775786,
+  "kept": 70473,
+  "benign": 2794,
+  "rate": 0.011692106710054445,
+  "labels": {
+   "LDAP": 9931,
+   "BENIGN": 2794,
+   "MSSQL": 5763061
+  },
+  "sec": 13
+ },
+ "03-11_NetBIOS.csv.gz": {
+  "rows": 3455899,
+  "kept": 68961,
+  "benign": 1321,
+  "rate": 0.019669106342013944,
+  "labels": {
+   "NetBIOS": 3454578,
+   "BENIGN": 1321
+  },
+  "sec": 7
+ },
+ "03-11_Portmap.csv.gz": {
+  "rows": 191694,
+  "kept": 70933,
+  "benign": 4734,
+  "rate": 0.35491180123717925,
+  "labels": {
+   "BENIGN": 4734,
+   "Portmap": 186960
+  },
+  "sec": 1
+ },
+ "03-11_Syn.csv.gz": {
+  "rows": 4320541,
+  "kept": 99675,
+  "benign": 35790,
+  "rate": 0.01486119907723246,
+  "labels": {
+   "Syn": 4284751,
+   "BENIGN": 35790
+  },
+  "sec": 11
+ },
+ "03-11_UDP.csv.gz": {
+  "rows": 3782206,
+  "kept": 61882,
+  "benign": 3134,
+  "rate": 0.0155622724505021,
+  "labels": {
+   "MSSQL": 24392,
+   "BENIGN": 3134,
+   "UDP": 3754680
+  },
+  "sec": 10
+ },
+ "03-11_UDPLag.csv.gz": {
+  "rows": 725165,
+  "kept": 67011,
+  "benign": 4068,
+  "rate": 0.08724382324910489,
+  "labels": {
+   "UDP": 112475,
+   "BENIGN": 4068,
+   "UDPLag": 1873,
+   "Syn": 606749
+  },
+  "sec": 2
+ }
+}

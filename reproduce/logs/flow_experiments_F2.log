@@ -1,0 +1,5 @@
+fold 0 {'LR': 0.998154, 'LightGBM': 0.99974, 'MonitoringAgent': 0.998699}
+fold 1 {'LR': 0.999332, 'LightGBM': 0.99997, 'MonitoringAgent': 0.99954}
+fold 2 {'LR': 0.99955, 'LightGBM': 0.999895, 'MonitoringAgent': 0.999625}
+fold 3 {'LR': 0.999215, 'LightGBM': 0.999967, 'MonitoringAgent': 0.999282}
+fold 4 {'LR': 0.996283, 'LightGBM': 0.998774, 'MonitoringAgent': 0.987115}

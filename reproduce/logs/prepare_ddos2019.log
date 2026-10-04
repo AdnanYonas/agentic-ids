@@ -1,0 +1,42 @@
+read 01-12_DrDoS_DNS.csv.gz 69816
+read 01-12_DrDoS_LDAP.csv.gz 67771
+read 01-12_DrDoS_MSSQL.csv.gz 68942
+read 01-12_DrDoS_NetBIOS.csv.gz 68590
+read 01-12_DrDoS_NTP.csv.gz 66293
+read 01-12_DrDoS_SNMP.csv.gz 67185
+read 01-12_DrDoS_SSDP.csv.gz 58682
+read 01-12_DrDoS_UDP.csv.gz 60029
+read 01-12_Syn.csv.gz 69587
+read 01-12_TFTP.csv.gz 85438
+read 01-12_UDPLag.csv.gz 68456
+read 03-11_LDAP.csv.gz 73104
+read 03-11_MSSQL.csv.gz 70473
+read 03-11_NetBIOS.csv.gz 68961
+read 03-11_Portmap.csv.gz 70933
+read 03-11_Syn.csv.gz 99675
+read 03-11_UDP.csv.gz 61882
+read 03-11_UDPLag.csv.gz 67011
+rows 1262828
+day    Label        
+01-12  BENIGN            56863
+       DrDoS_DNS         66414
+       DrDoS_LDAP        66159
+       DrDoS_MSSQL       66936
+       DrDoS_NTP         51928
+       DrDoS_NetBIOS     66883
+       DrDoS_SNMP        65678
+       DrDoS_SSDP        57919
+       DrDoS_UDP         57872
+       Syn               69195
+       TFTP              60191
+       UDP-lag           64670
+       WebDDoS              81
+03-11  BENIGN            56965
+       LDAP              61527
+       MSSQL             67944
+       NetBIOS           74224
+       Portmap           66199
+       Syn              116882
+       UDP               68123
+       UDPLag              175
+dtype: int64

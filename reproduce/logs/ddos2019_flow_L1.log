@@ -1,0 +1,11 @@
+DrDoS_NTP {'LR': 0.9823, 'LightGBM': 0.9975, 'MonitoringAgent': 0.9935} fpr {'LR': 0.0029, 'LightGBM': 0.0044, 'MonitoringAgent': 0.0005} 46s
+DrDoS_DNS {'LR': 0.9955, 'LightGBM': 0.998, 'MonitoringAgent': 0.9965} fpr {'LR': 0.015, 'LightGBM': 0.0006, 'MonitoringAgent': 0.0147} 38s
+DrDoS_LDAP {'LR': 0.9999, 'LightGBM': 1.0, 'MonitoringAgent': 0.9999} fpr {'LR': 0.0105, 'LightGBM': 0.0037, 'MonitoringAgent': 0.0037} 51s
+DrDoS_MSSQL {'LR': 0.9999, 'LightGBM': 1.0, 'MonitoringAgent': 0.9999} fpr {'LR': 0.0045, 'LightGBM': 0.0, 'MonitoringAgent': 0.0} 53s
+DrDoS_NetBIOS {'LR': 0.9999, 'LightGBM': 0.9995, 'MonitoringAgent': 0.9997} fpr {'LR': 0.0035, 'LightGBM': 0.0, 'MonitoringAgent': 0.0} 78s
+DrDoS_SNMP {'LR': 0.9996, 'LightGBM': 1.0, 'MonitoringAgent': 0.9995} fpr {'LR': 0.0113, 'LightGBM': 0.0007, 'MonitoringAgent': 0.002} 76s
+DrDoS_SSDP {'LR': 0.9997, 'LightGBM': 0.9999, 'MonitoringAgent': 0.9998} fpr {'LR': 0.0066, 'LightGBM': 0.0, 'MonitoringAgent': 0.0} 56s
+DrDoS_UDP {'LR': 0.9996, 'LightGBM': 0.9998, 'MonitoringAgent': 0.9996} fpr {'LR': 0.0042, 'LightGBM': 0.0, 'MonitoringAgent': 0.0019} 32s
+UDP-lag {'LR': 0.9961, 'LightGBM': 0.9989, 'MonitoringAgent': 0.9968} fpr {'LR': 0.0011, 'LightGBM': 0.0, 'MonitoringAgent': 0.0} 79s
+Syn {'LR': 0.9984, 'LightGBM': 0.9998, 'MonitoringAgent': 0.9968} fpr {'LR': 0.0051, 'LightGBM': 0.0, 'MonitoringAgent': 0.0} 42s
+TFTP {'LR': 0.9995, 'LightGBM': 0.9999, 'MonitoringAgent': 0.9995} fpr {'LR': 0.0026, 'LightGBM': 0.0002, 'MonitoringAgent': 0.0001} 51s

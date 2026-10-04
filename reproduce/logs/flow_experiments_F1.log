@@ -1,0 +1,5 @@
+seed 42 {'LR': 0.99901, 'LightGBM': 0.99987, 'MonitoringAgent': 0.999479, 'LightGBM_noPort': 0.999896, 'MonitoringAgent_noPort': 0.999192}
+seed 7 {'LR': 0.999219, 'LightGBM': 0.999948, 'MonitoringAgent': 0.999479, 'LightGBM_noPort': 0.999896, 'MonitoringAgent_noPort': 0.999505}
+seed 123 {'LR': 0.999375, 'LightGBM': 1.0, 'MonitoringAgent': 0.999453, 'LightGBM_noPort': 0.999922, 'MonitoringAgent_noPort': 0.999323}
+seed 2024 {'LR': 0.999062, 'LightGBM': 0.999922, 'MonitoringAgent': 0.999583, 'LightGBM_noPort': 0.999974, 'MonitoringAgent_noPort': 0.999036}
+seed 31337 {'LR': 0.998802, 'LightGBM': 0.999948, 'MonitoringAgent': 0.999635, 'LightGBM_noPort': 0.999818, 'MonitoringAgent_noPort': 0.999167}

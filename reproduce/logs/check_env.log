@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-04T12:29:40",
+ "python": "3.11.9",
+ "os": "Windows-10-10.0.26300-SP0",
+ "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+ "cpu_count": 12,
+ "numpy": "2.4.6",
+ "pandas": "3.0.5",
+ "sklearn": "1.9.1",
+ "lightgbm": "4.7.0",
+ "torch": "2.7.1+cu118",
+ "shap": "0.51.0",
+ "pyarrow": "25.0.1",
+ "joblib": "1.6.0",
+ "cuda_available": true,
+ "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+ "ram_gb": 15.8
+}
+
+Environment OK. Next: python reproduce\run_all.py step2

@@ -1,0 +1,171 @@
+{
+  "global_": [
+    {
+      "feature": "prob_mean_all",
+      "pretty": "Mean flow probability",
+      "mean_abs_shap_all": 2.0655831827385045,
+      "mean_abs_shap_real": 2.289389182120247,
+      "mean_abs_shap_synth": 1.7477786636164307,
+      "coef_std": 2.1477650841502576
+    },
+    {
+      "feature": "alert_fraction",
+      "pretty": "Alert fraction",
+      "mean_abs_shap_all": 1.7208093743153527,
+      "mean_abs_shap_real": 1.9419777151519073,
+      "mean_abs_shap_synth": 1.4067503303274465,
+      "coef_std": 1.789790719499568
+    },
+    {
+      "feature": "critical_fraction",
+      "pretty": "Critical-tier fraction",
+      "mean_abs_shap_all": 1.4301657119571318,
+      "mean_abs_shap_real": 1.7368578967766048,
+      "mean_abs_shap_synth": 0.9946628095134821,
+      "coef_std": 1.6435870820433582
+    },
+    {
+      "feature": "log_n_alerts",
+      "pretty": "Alerts in group (log)",
+      "mean_abs_shap_all": 1.1557815328164645,
+      "mean_abs_shap_real": 1.501266697234236,
+      "mean_abs_shap_synth": 0.6651925993432327,
+      "coef_std": 1.2776365635929965
+    },
+    {
+      "feature": "prob_mean_alerts",
+      "pretty": "Mean alert probability",
+      "mean_abs_shap_all": 0.8455339600485825,
+      "mean_abs_shap_real": 0.98572314764325,
+      "mean_abs_shap_synth": 0.6464653136641537,
+      "coef_std": 1.046688337647706
+    },
+    {
+      "feature": "log_duration_mean",
+      "pretty": "Mean flow duration (log)",
+      "mean_abs_shap_all": 0.7859028891883605,
+      "mean_abs_shap_real": 0.9720888575175497,
+      "mean_abs_shap_synth": 0.5215188141609126,
+      "coef_std": 1.182147301686548
+    },
+    {
+      "feature": "log_pkts_per_s_mean",
+      "pretty": "Mean packets/s (log)",
+      "mean_abs_shap_all": 0.6359625861879641,
+      "mean_abs_shap_real": 0.7973500574548246,
+      "mean_abs_shap_synth": 0.40679237698902215,
+      "coef_std": -0.9644880978106793
+    },
+    {
+      "feature": "log_bytes_per_s_mean",
+      "pretty": "Mean bytes/s (log)",
+      "mean_abs_shap_all": 0.5612012912011604,
+      "mean_abs_shap_real": 0.7395700953523833,
+      "mean_abs_shap_synth": 0.30791758930642404,
+      "coef_std": 0.8669055819530087
+    },
+    {
+      "feature": "log_iat_mean_mean",
+      "pretty": "Mean flow IAT (log)",
+      "mean_abs_shap_all": 0.4278843048881325,
+      "mean_abs_shap_real": 0.5445988685588264,
+      "mean_abs_shap_synth": 0.26214962447574736,
+      "coef_std": 0.6532035906668179
+    },
+    {
+      "feature": "log_n_flows",
+      "pretty": "Flows in group (log)",
+      "mean_abs_shap_all": 0.17863360445161808,
+      "mean_abs_shap_real": 0.21370579280399704,
+      "mean_abs_shap_synth": 0.12883109699124065,
+      "coef_std": 0.21651962286879745
+    }
+  ],
+  "local": {
+    "Real DDoS incident (port 80)": {
+      "index": 94,
+      "p": 0.9996829194084209,
+      "label": 1,
+      "n_flows": 1000,
+      "n_alerts": 1000,
+      "port": 80,
+      "base": -2.290997888388038,
+      "shap": {
+        "log_n_flows": 0.21261921393858407,
+        "log_n_alerts": 1.742599108301623,
+        "alert_fraction": 1.9909034799818928,
+        "prob_mean_alerts": 0.6891097021763982,
+        "prob_mean_all": 2.573536793073797,
+        "critical_fraction": 1.0543235555853543,
+        "log_duration_mean": 0.783135538080548,
+        "log_pkts_per_s_mean": 0.4937965714310739,
+        "log_bytes_per_s_mean": 0.46036792168882734,
+        "log_iat_mean_mean": 0.3466434575456925
+      }
+    },
+    "Real false-alarm cluster": {
+      "index": 269,
+      "p": 0.0029164758831806644,
+      "label": 0,
+      "n_flows": 233,
+      "n_alerts": 21,
+      "port": 80,
+      "base": -2.290997888388038,
+      "shap": {
+        "log_n_flows": 0.04970005545811816,
+        "log_n_alerts": -0.2681033685733049,
+        "alert_fraction": -2.004612407477253,
+        "prob_mean_alerts": 0.54120796413886,
+        "prob_mean_all": -2.337601223975929,
+        "critical_fraction": 1.0543235555853543,
+        "log_duration_mean": 0.10124988588329331,
+        "log_pkts_per_s_mean": 0.021096382452804242,
+        "log_bytes_per_s_mean": -0.7426853384589691,
+        "log_iat_mean_mean": 0.04196383954011638
+      }
+    },
+    "Synthetic low-rate DDoS": {
+      "index": 364,
+      "p": 0.4417962375714885,
+      "label": 1,
+      "n_flows": 19,
+      "n_alerts": 11,
+      "port": 80,
+      "base": -2.290997888388038,
+      "shap": {
+        "log_n_flows": -0.22600165302131092,
+        "log_n_alerts": -0.5873413460591881,
+        "alert_fraction": 0.14193584983694552,
+        "prob_mean_alerts": 0.6874950652048157,
+        "prob_mean_all": 0.3091655083142978,
+        "critical_fraction": 1.0543235555853543,
+        "log_duration_mean": 0.4486132487653462,
+        "log_pkts_per_s_mean": 0.3585930214053643,
+        "log_bytes_per_s_mean": -0.4018027300009826,
+        "log_iat_mean_mean": 0.272142081804937
+      }
+    },
+    "Synthetic benign burst": {
+      "index": 404,
+      "p": 0.004182750946136682,
+      "label": 0,
+      "n_flows": 979,
+      "n_alerts": 42,
+      "port": 443,
+      "base": -2.290997888388038,
+      "shap": {
+        "log_n_flows": 0.21024260335495487,
+        "log_n_alerts": 0.0848534695814519,
+        "alert_fraction": -2.2120039152518274,
+        "prob_mean_alerts": 0.29139133097006864,
+        "prob_mean_all": -2.5648113018661527,
+        "critical_fraction": 0.3763874881595564,
+        "log_duration_mean": 0.39759084004250533,
+        "log_pkts_per_s_mean": 0.11729480408402096,
+        "log_bytes_per_s_mean": 0.07445680146093987,
+        "log_iat_mean_mean": 0.04300116314429488
+      }
+    }
+  },
+  "n_explained": 484
+}

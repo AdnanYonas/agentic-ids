@@ -1,0 +1,324 @@
+{
+  "all10": {
+    "CIC-DDoS2019 01-12 (real)": {
+      "escalate_all": {
+        "f1": 0.9529780564263323,
+        "precision": 0.9101796407185628,
+        "recall": 1.0,
+        "false_incidents": 30,
+        "missed": 0,
+        "n": 334,
+        "pos": 304
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.3915343915343915,
+        "precision": 1.0,
+        "recall": 0.24342105263157895,
+        "false_incidents": 0,
+        "missed": 230,
+        "n": 334,
+        "pos": 304
+      }
+    },
+    "CIC-DDoS2019 03-11 (real)": {
+      "escalate_all": {
+        "f1": 0.9551166965888689,
+        "precision": 0.9140893470790378,
+        "recall": 1.0,
+        "false_incidents": 25,
+        "missed": 0,
+        "n": 291,
+        "pos": 266
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.2671009771986971,
+        "precision": 1.0,
+        "recall": 0.15413533834586465,
+        "false_incidents": 0,
+        "missed": 225,
+        "n": 291,
+        "pos": 266
+      }
+    },
+    "CIC-DDoS2019 synthetic": {
+      "escalate_all": {
+        "f1": 0.75,
+        "precision": 0.6,
+        "recall": 1.0,
+        "false_incidents": 40,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "false_incidents": 0,
+        "missed": 60,
+        "n": 100,
+        "pos": 60
+      }
+    },
+    "CIC-IDS2017 (real)": {
+      "escalate_all": {
+        "f1": 0.675990675990676,
+        "precision": 0.5105633802816901,
+        "recall": 1.0,
+        "false_incidents": 139,
+        "missed": 0,
+        "n": 284,
+        "pos": 145
+      },
+      "transfer_from_CIC-DDoS2019": {
+        "f1": 0.9764309764309764,
+        "precision": 0.9539473684210527,
+        "recall": 1.0,
+        "false_incidents": 7,
+        "missed": 0,
+        "n": 284,
+        "pos": 145
+      }
+    },
+    "CIC-IDS2017 synthetic": {
+      "escalate_all": {
+        "f1": 0.75,
+        "precision": 0.6,
+        "recall": 1.0,
+        "false_incidents": 40,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      },
+      "transfer_from_CIC-DDoS2019": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_incidents": 0,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      }
+    }
+  },
+  "agnostic6": {
+    "CIC-DDoS2019 01-12 (real)": {
+      "escalate_all": {
+        "f1": 0.9529780564263323,
+        "precision": 0.9101796407185628,
+        "recall": 1.0,
+        "false_incidents": 30,
+        "missed": 0,
+        "n": 334,
+        "pos": 304
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.9025270758122743,
+        "precision": 1.0,
+        "recall": 0.8223684210526315,
+        "false_incidents": 0,
+        "missed": 54,
+        "n": 334,
+        "pos": 304
+      }
+    },
+    "CIC-DDoS2019 03-11 (real)": {
+      "escalate_all": {
+        "f1": 0.9551166965888689,
+        "precision": 0.9140893470790378,
+        "recall": 1.0,
+        "false_incidents": 25,
+        "missed": 0,
+        "n": 291,
+        "pos": 266
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.920892494929006,
+        "precision": 1.0,
+        "recall": 0.8533834586466166,
+        "false_incidents": 0,
+        "missed": 39,
+        "n": 291,
+        "pos": 266
+      }
+    },
+    "CIC-DDoS2019 synthetic": {
+      "escalate_all": {
+        "f1": 0.75,
+        "precision": 0.6,
+        "recall": 1.0,
+        "false_incidents": 40,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.9565217391304348,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "false_incidents": 0,
+        "missed": 5,
+        "n": 100,
+        "pos": 60
+      }
+    },
+    "CIC-IDS2017 (real)": {
+      "escalate_all": {
+        "f1": 0.675990675990676,
+        "precision": 0.5105633802816901,
+        "recall": 1.0,
+        "false_incidents": 139,
+        "missed": 0,
+        "n": 284,
+        "pos": 145
+      },
+      "transfer_from_CIC-DDoS2019": {
+        "f1": 0.9764309764309764,
+        "precision": 0.9539473684210527,
+        "recall": 1.0,
+        "false_incidents": 7,
+        "missed": 0,
+        "n": 284,
+        "pos": 145
+      }
+    },
+    "CIC-IDS2017 synthetic": {
+      "escalate_all": {
+        "f1": 0.75,
+        "precision": 0.6,
+        "recall": 1.0,
+        "false_incidents": 40,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      },
+      "transfer_from_CIC-DDoS2019": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_incidents": 0,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      }
+    }
+  },
+  "ratio4": {
+    "CIC-DDoS2019 01-12 (real)": {
+      "escalate_all": {
+        "f1": 0.9529780564263323,
+        "precision": 0.9101796407185628,
+        "recall": 1.0,
+        "false_incidents": 30,
+        "missed": 0,
+        "n": 334,
+        "pos": 304
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.9407665505226481,
+        "precision": 1.0,
+        "recall": 0.8881578947368421,
+        "false_incidents": 0,
+        "missed": 34,
+        "n": 334,
+        "pos": 304
+      }
+    },
+    "CIC-DDoS2019 03-11 (real)": {
+      "escalate_all": {
+        "f1": 0.9551166965888689,
+        "precision": 0.9140893470790378,
+        "recall": 1.0,
+        "false_incidents": 25,
+        "missed": 0,
+        "n": 291,
+        "pos": 266
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 0.9506903353057199,
+        "precision": 1.0,
+        "recall": 0.9060150375939849,
+        "false_incidents": 0,
+        "missed": 25,
+        "n": 291,
+        "pos": 266
+      }
+    },
+    "CIC-DDoS2019 synthetic": {
+      "escalate_all": {
+        "f1": 0.75,
+        "precision": 0.6,
+        "recall": 1.0,
+        "false_incidents": 40,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      },
+      "transfer_from_CIC-IDS2017": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_incidents": 0,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      }
+    },
+    "CIC-IDS2017 (real)": {
+      "escalate_all": {
+        "f1": 0.675990675990676,
+        "precision": 0.5105633802816901,
+        "recall": 1.0,
+        "false_incidents": 139,
+        "missed": 0,
+        "n": 284,
+        "pos": 145
+      },
+      "transfer_from_CIC-DDoS2019": {
+        "f1": 0.9731543624161074,
+        "precision": 0.9477124183006536,
+        "recall": 1.0,
+        "false_incidents": 8,
+        "missed": 0,
+        "n": 284,
+        "pos": 145
+      }
+    },
+    "CIC-IDS2017 synthetic": {
+      "escalate_all": {
+        "f1": 0.75,
+        "precision": 0.6,
+        "recall": 1.0,
+        "false_incidents": 40,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      },
+      "transfer_from_CIC-DDoS2019": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "false_incidents": 0,
+        "missed": 0,
+        "n": 100,
+        "pos": 60
+      }
+    }
+  },
+  "agnostic6_miss_analysis": {
+    "01-12": {
+      "missed": 54,
+      "missed_max_flows": 15,
+      "attack_alerts_total": 692789,
+      "attack_alerts_in_missed": 121,
+      "alert_coverage": 0.9998253436472
+    },
+    "03-11": {
+      "missed": 39,
+      "missed_max_flows": 88,
+      "attack_alerts_total": 454563,
+      "attack_alerts_in_missed": 81,
+      "alert_coverage": 0.9998218068782545
+    }
+  }
+}

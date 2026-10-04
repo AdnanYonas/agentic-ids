@@ -1,0 +1,17 @@
+all10 CIC-DDoS2019 01-12 (real) {'escalate_all': (0.953, 30, 0), 'transfer_from_CIC-IDS2017': (0.392, 0, 230)}
+all10 CIC-DDoS2019 03-11 (real) {'escalate_all': (0.955, 25, 0), 'transfer_from_CIC-IDS2017': (0.267, 0, 225)}
+all10 CIC-DDoS2019 synthetic {'escalate_all': (0.75, 40, 0), 'transfer_from_CIC-IDS2017': (0.0, 0, 60)}
+all10 CIC-IDS2017 (real) {'escalate_all': (0.676, 139, 0), 'transfer_from_CIC-DDoS2019': (0.976, 7, 0)}
+all10 CIC-IDS2017 synthetic {'escalate_all': (0.75, 40, 0), 'transfer_from_CIC-DDoS2019': (1.0, 0, 0)}
+agnostic6 CIC-DDoS2019 01-12 (real) {'escalate_all': (0.953, 30, 0), 'transfer_from_CIC-IDS2017': (0.903, 0, 54)}
+agnostic6 CIC-DDoS2019 03-11 (real) {'escalate_all': (0.955, 25, 0), 'transfer_from_CIC-IDS2017': (0.921, 0, 39)}
+agnostic6 CIC-DDoS2019 synthetic {'escalate_all': (0.75, 40, 0), 'transfer_from_CIC-IDS2017': (0.957, 0, 5)}
+agnostic6 CIC-IDS2017 (real) {'escalate_all': (0.676, 139, 0), 'transfer_from_CIC-DDoS2019': (0.976, 7, 0)}
+agnostic6 CIC-IDS2017 synthetic {'escalate_all': (0.75, 40, 0), 'transfer_from_CIC-DDoS2019': (1.0, 0, 0)}
+ratio4 CIC-DDoS2019 01-12 (real) {'escalate_all': (0.953, 30, 0), 'transfer_from_CIC-IDS2017': (0.941, 0, 34)}
+ratio4 CIC-DDoS2019 03-11 (real) {'escalate_all': (0.955, 25, 0), 'transfer_from_CIC-IDS2017': (0.951, 0, 25)}
+ratio4 CIC-DDoS2019 synthetic {'escalate_all': (0.75, 40, 0), 'transfer_from_CIC-IDS2017': (1.0, 0, 0)}
+ratio4 CIC-IDS2017 (real) {'escalate_all': (0.676, 139, 0), 'transfer_from_CIC-DDoS2019': (0.973, 8, 0)}
+ratio4 CIC-IDS2017 synthetic {'escalate_all': (0.75, 40, 0), 'transfer_from_CIC-DDoS2019': (1.0, 0, 0)}
+miss analysis 01-12 {'missed': 54, 'missed_max_flows': 15, 'attack_alerts_total': 692789, 'attack_alerts_in_missed': 121, 'alert_coverage': 0.9998253436472}
+miss analysis 03-11 {'missed': 39, 'missed_max_flows': 88, 'attack_alerts_total': 454563, 'attack_alerts_in_missed': 81, 'alert_coverage': 0.9998218068782545}
