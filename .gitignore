@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# datasets are not redistributed; see data/README.md
+data/raw/*.csv
+data/raw/CICDDoS2019_sampled/*.csv.gz
+data/raw/CICDDoS2019_sampled/*.done
+data/ddos2019/

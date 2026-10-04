@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Beyond Flow-Level Accuracy: Explainable Incident-Level DDoS Detection with Synthetic Incident Augmentation"
+authors:
+  - family-names: Younas
+    given-names: Adnan
+    affiliation: "Department of Computer Science, Bahria University, Islamabad, Pakistan"
+    orcid: "https://orcid.org/0009-0008-9749-5930"
+  - family-names: Adnan
+    given-names: Habiba
+    affiliation: "Virtual University of Pakistan, Islamabad, Pakistan"
+    orcid: "https://orcid.org/0009-0004-3577-4353"
+repository-code: "https://github.com/AdnanYonas/agentic-ids"
+license: MIT
+date-released: "2026-10-04"
