@@ -8,6 +8,8 @@ Usage (from the agentic-ids folder, with the env activated):
     python reproduce\\run_all.py step6     (CIC-DDoS2019 flow level: cross-day, unseen types, seen, ~18 min)
     python reproduce\\run_all.py step7     (CIC-DDoS2019 incident level + cross-dataset transfer, ~5 min)
     python reproduce\\run_all.py step7b    (cross-dataset transfer only, <1 min)
+    python reproduce\\run_all.py step8     (E7 robustness, CIC-IDS2017: 5 detector seeds + LightGBM agent, ~25 min)
+    python reproduce\\run_all.py step9     (E7 robustness, CIC-DDoS2019: 5 detector seeds + LightGBM agent, ~50 min)
 Times are for an Intel Core i5 12th gen, 16 GB RAM, CPU only.
 Each step writes a log to reproduce\\logs\\ and results to results_local\\ or results_ddos2019_local\\.
 """
@@ -23,6 +25,8 @@ STEPS = {
     "step6": [["ddos2019_flow.py", "X1"], ["ddos2019_flow.py", "L1"], ["ddos2019_flow.py", "S1"]],
     "step7": [["ddos2019_incidents.py"], ["ddos2019_summary.py"], ["crossdataset.py"]],
     "step7b": [["crossdataset.py"]],
+    "step8": [["robustness.py", "R1"]],
+    "step9": [["robustness.py", "R2"]],
 }
 step = sys.argv[1] if len(sys.argv) > 1 else ""
 if step not in STEPS: print(__doc__); sys.exit(1)
@@ -37,5 +41,5 @@ for cmd in STEPS[step]:
     print(f"=== finished in {(time.time()-t0)/60:.1f} min, exit code {p.returncode}", flush=True)
     if p.returncode != 0:
         print("STOPPED: this step failed. Send me the log file above."); sys.exit(p.returncode)
-nxt = {"step1": "step2", "step2": "step3", "step3": "step4", "step4": "step5", "step5": "step6", "step6": "step7"}.get(step)
+nxt = {"step1": "step2", "step2": "step3", "step3": "step4", "step4": "step5", "step5": "step6", "step6": "step7", "step8": "step9"}.get(step)
 print(f"\nDone. Next: python reproduce\\run_all.py {nxt}" if nxt else "\nALL STEPS DONE. Tell Claude so the paper can be rebuilt from your results.")

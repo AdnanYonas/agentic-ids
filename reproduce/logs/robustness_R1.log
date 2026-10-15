@@ -1,0 +1,6 @@
+seed set 42: flow F1 0.9983 FP 317 | candidates 284 (145 DDoS) | real F1 escalate_all=0.676/139 rule=0.960/11 ca_real=0.986/3 ca_aug=0.954/14 lgb_real=0.997/0 lgb_aug=0.957/13 | syn F1 aug=0.990 real=0.885 | 20s
+seed set 1000: flow F1 0.9993 FP 92 | candidates 194 (145 DDoS) | real F1 escalate_all=0.855/49 rule=0.983/5 ca_real=0.997/0 ca_aug=0.990/3 lgb_real=0.997/1 lgb_aug=0.997/1 | syn F1 aug=1.000 real=0.885 | 470s
+seed set 2000: flow F1 0.9986 FP 236 | candidates 240 (145 DDoS) | real F1 escalate_all=0.753/95 rule=0.963/10 ca_real=0.976/5 ca_aug=0.967/10 lgb_real=0.960/11 lgb_aug=0.963/11 | syn F1 aug=0.980 real=0.868 | 302s
+seed set 3000: flow F1 0.9994 FP 54 | candidates 184 (145 DDoS) | real F1 escalate_all=0.881/39 rule=0.986/4 ca_real=0.997/0 ca_aug=0.990/2 lgb_real=0.997/0 lgb_aug=0.997/1 | syn F1 aug=0.998 real=0.868 | 336s
+seed set 4000: flow F1 0.9985 FP 263 | candidates 254 (145 DDoS) | real F1 escalate_all=0.727/109 rule=0.963/10 ca_real=0.976/5 ca_aug=0.957/13 lgb_real=0.947/14 lgb_aug=0.967/10 | syn F1 aug=0.974 real=0.868 | 379s
+done

@@ -13,7 +13,7 @@ Every incident is built from out-of-fold detector scores. Evaluation uses blocke
 
 ## Main results
 
-All results in `results_local/` and `results_ddos2019_local/` were produced by `reproduce/run_all.py` on the authors' desktop: an Intel Core i5 12th gen with 16 GB of RAM, CPU only, taking about one hour in total. The run logs are in `reproduce/logs/`.
+All results in `results_local/` and `results_ddos2019_local/` were produced by `reproduce/run_all.py` on the authors' desktop: an Intel Core i5 12th gen with 16 GB of RAM, CPU only, taking about one hour for steps 1–7 and 75 minutes for the robustness steps 8–9. The run logs are in `reproduce/logs/`.
 
 | Experiment | Result |
 |---|---|
@@ -23,6 +23,7 @@ All results in `results_local/` and `results_ddos2019_local/` were produced by `
 | CIC-DDoS2019, 11 unseen attack types | false incidents 30 → 11 (−63%), incident recall 95.4% |
 | CIC-DDoS2019, new capture day (Portmap unseen) | false incidents 25 → 0, incident recall 98.9% |
 | Transfer CIC-IDS2017 → CIC-DDoS2019 | 0 false incidents on both days |
+| Robustness over 5 detector seeds (E7) | CIC-IDS2017 real-only agent F1 0.986 ± 0.010; CIC-DDoS2019 false incidents −53% (unseen types) and −100% (new day, all seeds) |
 
 Synthetic augmentation is a trade-off. It makes the agent robust to rare incident shapes, but it also escalates more isolated single-alert groups. The article discusses this in Section 6.
 
@@ -44,6 +45,8 @@ python reproduce/run_all.py step4    # E1: CIC-IDS2017, 5 random seeds
 python reproduce/run_all.py step5    # E3: CIC-IDS2017 incidents, LOTO, window sensitivity, SHAP
 python reproduce/run_all.py step6    # E4/E5: CIC-DDoS2019 flow level
 python reproduce/run_all.py step7    # E4/E5/E6: CIC-DDoS2019 incidents, cross-dataset transfer
+python reproduce/run_all.py step8    # E7: CIC-IDS2017 incidents over 5 detector seeds + LightGBM agent
+python reproduce/run_all.py step9    # E7: CIC-DDoS2019 incidents over 5 detector seeds + LightGBM agent
 ```
 
 Each step writes a log to `reproduce/logs/`. Results go to `results_local/` (CIC-IDS2017) and `results_ddos2019_local/` (CIC-DDoS2019). LightGBM and the logistic-regression baselines are deterministic. The per-flow CIC-DDoS2019 scores were written as pickle files in the reported run. Here they are stored as Parquet files with identical values, to keep the repository small, and the scripts read and write Parquet. The neural Monitoring Agent can differ slightly across hardware and library versions, and so can the incident-level numbers built on its scores.
@@ -60,6 +63,7 @@ reproduce/                 experiment code and run_all.py driver
   ddos2019_incidents.py    E4/E5 incident level, window sensitivity
   ddos2019_summary.py      per-attack-type table
   crossdataset.py          E6: cross-dataset transfer
+  robustness.py            E7: incident level over 5 detector seeds, LightGBM Correlation Agent
   sample_cicddos2019.py    builds the sampled CIC-DDoS2019 files
   logs/                    logs of the reported run
 results_local/             CIC-IDS2017 results, incl. out-of-fold flow scores (oof_flow_probs.parquet)

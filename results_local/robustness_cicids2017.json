@@ -1,0 +1,547 @@
+{
+  "42": {
+    "tau": 0.5,
+    "flow": {
+      "f1": 0.9983335870027591,
+      "fp": 317,
+      "fn": 110
+    },
+    "n_candidates": 284,
+    "n_pos": 145,
+    "alerts": 128223,
+    "incident": {
+      "p_escalate_all": {
+        "f1": 0.675990675990676,
+        "precision": 0.5105633802816901,
+        "recall": 1.0,
+        "false_incidents": 139,
+        "missed": 0,
+        "escalated": 284,
+        "syn_f1": 0.75,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.0,
+          "benign_burst": 0.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_rule": {
+        "f1": 0.96,
+        "precision": 0.9290322580645162,
+        "recall": 0.993103448275862,
+        "false_incidents": 11,
+        "missed": 1,
+        "escalated": 155,
+        "syn_f1": 0.7552674230145867,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.43,
+          "benign_burst": 0.73,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.34,
+          "medium_ddos": 0.99
+        }
+      },
+      "p_ca_real": {
+        "f1": 0.9863013698630136,
+        "precision": 0.9795918367346939,
+        "recall": 0.993103448275862,
+        "false_incidents": 3,
+        "missed": 1,
+        "escalated": 147,
+        "syn_f1": 0.8847583643122676,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.41,
+          "medium_ddos": 0.97
+        }
+      },
+      "p_ca_aug": {
+        "f1": 0.9539473684210527,
+        "precision": 0.9119496855345912,
+        "recall": 1.0,
+        "false_incidents": 14,
+        "missed": 0,
+        "escalated": 159,
+        "syn_f1": 0.9899328859060402,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.99,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.95,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_lgb_real": {
+        "f1": 0.9965397923875432,
+        "precision": 1.0,
+        "recall": 0.993103448275862,
+        "false_incidents": 0,
+        "missed": 1,
+        "escalated": 144,
+        "syn_f1": 0.9473684210526315,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.73,
+          "medium_ddos": 0.97
+        }
+      },
+      "p_lgb_aug": {
+        "f1": 0.9570957095709571,
+        "precision": 0.9177215189873418,
+        "recall": 1.0,
+        "false_incidents": 13,
+        "missed": 0,
+        "escalated": 158,
+        "syn_f1": 0.998330550918197,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.99,
+          "medium_ddos": 1.0
+        }
+      }
+    }
+  },
+  "1000": {
+    "tau": 0.5,
+    "flow": {
+      "f1": 0.9992735226340663,
+      "fp": 92,
+      "fn": 94
+    },
+    "n_candidates": 194,
+    "n_pos": 145,
+    "alerts": 128014,
+    "incident": {
+      "p_escalate_all": {
+        "f1": 0.855457227138643,
+        "precision": 0.7474226804123711,
+        "recall": 1.0,
+        "false_incidents": 49,
+        "missed": 0,
+        "escalated": 194,
+        "syn_f1": 0.75,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.0,
+          "benign_burst": 0.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_rule": {
+        "f1": 0.9830508474576272,
+        "precision": 0.9666666666666667,
+        "recall": 1.0,
+        "false_incidents": 5,
+        "missed": 0,
+        "escalated": 150,
+        "syn_f1": 0.7612551159618008,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.11,
+          "benign_burst": 0.35,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.79,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_ca_real": {
+        "f1": 0.9965397923875432,
+        "precision": 1.0,
+        "recall": 0.993103448275862,
+        "false_incidents": 0,
+        "missed": 1,
+        "escalated": 144,
+        "syn_f1": 0.8847583643122676,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.46,
+          "medium_ddos": 0.92
+        }
+      },
+      "p_ca_aug": {
+        "f1": 0.9897610921501706,
+        "precision": 0.9797297297297297,
+        "recall": 1.0,
+        "false_incidents": 3,
+        "missed": 0,
+        "escalated": 148,
+        "syn_f1": 1.0,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_lgb_real": {
+        "f1": 0.9965635738831615,
+        "precision": 0.9931506849315068,
+        "recall": 1.0,
+        "false_incidents": 1,
+        "missed": 0,
+        "escalated": 146,
+        "syn_f1": 0.9864864864864865,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.92,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_lgb_aug": {
+        "f1": 0.9965635738831615,
+        "precision": 0.9931506849315068,
+        "recall": 1.0,
+        "false_incidents": 1,
+        "missed": 0,
+        "escalated": 146,
+        "syn_f1": 0.998330550918197,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.99,
+          "medium_ddos": 1.0
+        }
+      }
+    }
+  },
+  "2000": {
+    "tau": 0.7,
+    "flow": {
+      "f1": 0.9986101784905601,
+      "fp": 236,
+      "fn": 120
+    },
+    "n_candidates": 240,
+    "n_pos": 145,
+    "alerts": 128132,
+    "incident": {
+      "p_escalate_all": {
+        "f1": 0.7532467532467533,
+        "precision": 0.6041666666666666,
+        "recall": 1.0,
+        "false_incidents": 95,
+        "missed": 0,
+        "escalated": 240,
+        "syn_f1": 0.75,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.0,
+          "benign_burst": 0.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_rule": {
+        "f1": 0.9632107023411371,
+        "precision": 0.935064935064935,
+        "recall": 0.993103448275862,
+        "false_incidents": 10,
+        "missed": 1,
+        "escalated": 154,
+        "syn_f1": 0.7540453074433657,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.42,
+          "benign_burst": 0.73,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.34,
+          "medium_ddos": 0.99
+        }
+      },
+      "p_ca_real": {
+        "f1": 0.9761092150170648,
+        "precision": 0.9662162162162162,
+        "recall": 0.9862068965517241,
+        "false_incidents": 5,
+        "missed": 2,
+        "escalated": 148,
+        "syn_f1": 0.8679245283018868,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.35,
+          "medium_ddos": 0.95
+        }
+      },
+      "p_ca_aug": {
+        "f1": 0.9666666666666667,
+        "precision": 0.9354838709677419,
+        "recall": 1.0,
+        "false_incidents": 10,
+        "missed": 0,
+        "escalated": 155,
+        "syn_f1": 0.9795918367346939,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.88,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_lgb_real": {
+        "f1": 0.96,
+        "precision": 0.9290322580645162,
+        "recall": 0.993103448275862,
+        "false_incidents": 11,
+        "missed": 1,
+        "escalated": 155,
+        "syn_f1": 0.9417989417989417,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.69,
+          "medium_ddos": 0.98
+        }
+      },
+      "p_lgb_aug": {
+        "f1": 0.9634551495016611,
+        "precision": 0.9294871794871795,
+        "recall": 1.0,
+        "false_incidents": 11,
+        "missed": 0,
+        "escalated": 156,
+        "syn_f1": 1.0,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      }
+    }
+  },
+  "3000": {
+    "tau": 0.6,
+    "flow": {
+      "f1": 0.9993554058013477,
+      "fp": 54,
+      "fn": 111
+    },
+    "n_candidates": 184,
+    "n_pos": 145,
+    "alerts": 127959,
+    "incident": {
+      "p_escalate_all": {
+        "f1": 0.8814589665653495,
+        "precision": 0.7880434782608695,
+        "recall": 1.0,
+        "false_incidents": 39,
+        "missed": 0,
+        "escalated": 184,
+        "syn_f1": 0.75,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.0,
+          "benign_burst": 0.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_rule": {
+        "f1": 0.9863945578231292,
+        "precision": 0.9731543624161074,
+        "recall": 1.0,
+        "false_incidents": 4,
+        "missed": 0,
+        "escalated": 149,
+        "syn_f1": 0.754863813229572,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.04,
+          "benign_burst": 0.16,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.91,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_ca_real": {
+        "f1": 0.9965397923875432,
+        "precision": 1.0,
+        "recall": 0.993103448275862,
+        "false_incidents": 0,
+        "missed": 1,
+        "escalated": 144,
+        "syn_f1": 0.8679245283018868,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.43,
+          "medium_ddos": 0.87
+        }
+      },
+      "p_ca_aug": {
+        "f1": 0.9896907216494846,
+        "precision": 0.9863013698630136,
+        "recall": 0.993103448275862,
+        "false_incidents": 2,
+        "missed": 1,
+        "escalated": 146,
+        "syn_f1": 0.998330550918197,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.99,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_lgb_real": {
+        "f1": 0.9965397923875432,
+        "precision": 1.0,
+        "recall": 0.993103448275862,
+        "false_incidents": 0,
+        "missed": 1,
+        "escalated": 144,
+        "syn_f1": 0.9547038327526133,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.81,
+          "medium_ddos": 0.93
+        }
+      },
+      "p_lgb_aug": {
+        "f1": 0.9965635738831615,
+        "precision": 0.9931506849315068,
+        "recall": 1.0,
+        "false_incidents": 1,
+        "missed": 0,
+        "escalated": 146,
+        "syn_f1": 1.0,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      }
+    }
+  },
+  "4000": {
+    "tau": 0.5,
+    "flow": {
+      "f1": 0.9985127470459877,
+      "fp": 263,
+      "fn": 118
+    },
+    "n_candidates": 254,
+    "n_pos": 145,
+    "alerts": 128161,
+    "incident": {
+      "p_escalate_all": {
+        "f1": 0.7268170426065163,
+        "precision": 0.5708661417322834,
+        "recall": 1.0,
+        "false_incidents": 109,
+        "missed": 0,
+        "escalated": 254,
+        "syn_f1": 0.75,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.0,
+          "benign_burst": 0.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 1.0,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_rule": {
+        "f1": 0.9632107023411371,
+        "precision": 0.935064935064935,
+        "recall": 0.993103448275862,
+        "false_incidents": 10,
+        "missed": 1,
+        "escalated": 154,
+        "syn_f1": 0.7564935064935064,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.43,
+          "benign_burst": 0.74,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.34,
+          "medium_ddos": 0.99
+        }
+      },
+      "p_ca_real": {
+        "f1": 0.9761092150170648,
+        "precision": 0.9662162162162162,
+        "recall": 0.9862068965517241,
+        "false_incidents": 5,
+        "missed": 2,
+        "escalated": 148,
+        "syn_f1": 0.8679245283018868,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.35,
+          "medium_ddos": 0.95
+        }
+      },
+      "p_ca_aug": {
+        "f1": 0.9570957095709571,
+        "precision": 0.9177215189873418,
+        "recall": 1.0,
+        "false_incidents": 13,
+        "missed": 0,
+        "escalated": 158,
+        "syn_f1": 0.9744463373083475,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 0.99,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.86,
+          "medium_ddos": 1.0
+        }
+      },
+      "p_lgb_real": {
+        "f1": 0.9470198675496688,
+        "precision": 0.910828025477707,
+        "recall": 0.9862068965517241,
+        "false_incidents": 14,
+        "missed": 2,
+        "escalated": 157,
+        "syn_f1": 0.907103825136612,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.63,
+          "medium_ddos": 0.86
+        }
+      },
+      "p_lgb_aug": {
+        "f1": 0.9666666666666667,
+        "precision": 0.9354838709677419,
+        "recall": 1.0,
+        "false_incidents": 10,
+        "missed": 0,
+        "escalated": 155,
+        "syn_f1": 0.998330550918197,
+        "syn_acc_by_type": {
+          "ambiguous_mixed": 1.0,
+          "benign_burst": 1.0,
+          "high_ddos": 1.0,
+          "lowrate_ddos": 0.99,
+          "medium_ddos": 1.0
+        }
+      }
+    }
+  }
+}

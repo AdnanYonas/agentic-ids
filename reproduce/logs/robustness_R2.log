@@ -1,0 +1,6 @@
+seed set 42: E4 false incidents escalate_all=30 rule=30 ca_real=10 ca_aug=11 lgb_real=14 lgb_aug=12 | E5 false incidents escalate_all=25 rule=25 ca_real=1 ca_aug=0 lgb_real=4 lgb_aug=1 | E4 F1 aug=0.959 lgb_aug=0.943 | 34s
+seed set 1000: E4 false incidents escalate_all=50 rule=50 ca_real=16 ca_aug=19 lgb_real=15 lgb_aug=20 | E5 false incidents escalate_all=20 rule=20 ca_real=0 ca_aug=0 lgb_real=4 lgb_aug=3 | E4 F1 aug=0.938 lgb_aug=0.936 | 726s
+seed set 2000: E4 false incidents escalate_all=42 rule=42 ca_real=3 ca_aug=27 lgb_real=9 lgb_aug=27 | E5 false incidents escalate_all=11 rule=11 ca_real=0 ca_aug=0 lgb_real=0 lgb_aug=2 | E4 F1 aug=0.941 lgb_aug=0.937 | 696s
+seed set 3000: E4 false incidents escalate_all=46 rule=46 ca_real=20 ca_aug=28 lgb_real=32 lgb_aug=6 | E5 false incidents escalate_all=65 rule=65 ca_real=0 ca_aug=0 lgb_real=1 lgb_aug=2 | E4 F1 aug=0.878 lgb_aug=0.969 | 753s
+seed set 4000: E4 false incidents escalate_all=22 rule=22 ca_real=3 ca_aug=8 lgb_real=5 lgb_aug=8 | E5 false incidents escalate_all=10 rule=10 ca_real=0 ca_aug=0 lgb_real=2 lgb_aug=1 | E4 F1 aug=0.956 lgb_aug=0.975 | 843s
+done
